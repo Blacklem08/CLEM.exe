@@ -8,4 +8,14 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Remove="sadface.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="sadface.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
