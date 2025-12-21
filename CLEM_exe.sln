@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36811.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLEM_exe", "CLEM_exe\CLEM_exe.csproj", "{F80E0D02-4562-4B46-A26B-117ED2178BBF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F80E0D02-4562-4B46-A26B-117ED2178BBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F80E0D02-4562-4B46-A26B-117ED2178BBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F80E0D02-4562-4B46-A26B-117ED2178BBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F80E0D02-4562-4B46-A26B-117ED2178BBF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D099B60-7F48-46B7-864D-C61697482FA0}
+	EndGlobalSection
+EndGlobal
