@@ -30,4 +30,4 @@ jobs:
       uses: actions/upload-artifact@v6
       with:
         name: Clem_exe
-        path: ./publish_output
+        path: ./CLEM_exe/bin/Release/net8.0-windows
