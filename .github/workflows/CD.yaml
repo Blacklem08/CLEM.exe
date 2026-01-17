@@ -1,8 +1,8 @@
-name: Build Clem.exe Release
+name: CD - Build Clem.exe Release
 
 on:
   workflow_run:
-    workflows: [Build Clem.exe]
+    workflows: [CI - Build Clem.exe]
     branches: [main]
     # tags: ['v*']
     types: 
@@ -23,3 +23,4 @@ jobs:
       uses: actions/download-artifact@v7
       with:
         path: Clem_exe
+        run-id: ${{ github.event.workflow_run.id }}
