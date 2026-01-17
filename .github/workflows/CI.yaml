@@ -18,8 +18,7 @@ jobs:
     - name: Setup .NET
       uses: actions/setup-dotnet@v5
       with:
-        dotnet-version: |
-          8.0.x # Specify your required .NET version (e.g., 6.0.x, 7.0.x, 8.0.x)
+        dotnet-version: '8.0.x'
 
     - name: Restore dependencies
       run: dotnet restore
