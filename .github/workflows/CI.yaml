@@ -30,4 +30,8 @@ jobs:
       uses: actions/upload-artifact@v6
       with:
         name: Clem_exe
-        path: ./CLEM_exe/bin/Release/net8.0-windows
+        path: |
+            ./CLEM_exe/bin/Release/net8.0-windows
+            !**/*.json
+            !**/*.pdb
+        if-no-files-found: error
