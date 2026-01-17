@@ -23,4 +23,5 @@ jobs:
       uses: actions/download-artifact@v7
       with:
         path: Clem_exe
+        name: artifact
         run-id: ${{ github.event.workflow_run.id }}
