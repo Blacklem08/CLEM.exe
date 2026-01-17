@@ -2,9 +2,9 @@ name: Build Clem.exe Release
 
 on:
   workflow_run:
-    workflows: [ 'Build Clem.exe' ]
+    workflows: [Build Clem.exe]
     branches: [main]
-    tags: [ 'v*' ]
+    tags: ['v*']
     types: 
       - completed
 
